@@ -14,7 +14,7 @@ const onFormTarget = (event) => {
     email: email.value,
     password: password.value,
   };
-
+  console.log(elems);
   event.currentTarget.reset();
 };
 
